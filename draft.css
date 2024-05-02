@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .deadliftnavbar{
     display: flex;
     justify-content: end;
@@ -44,7 +49,7 @@
 .rounded-container {
     background-color: rgba(128, 128, 128, 0.3); 
     border-radius: 15px; 
-    padding: 15px; 
+    padding-bottom: 15px; 
     margin-bottom: 20px; 
     margin-top: 15px;
 }
