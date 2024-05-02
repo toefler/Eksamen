@@ -1,0 +1,49 @@
+.deadliftnavbar{
+    display: flex;
+    justify-content: end;
+}
+
+
+.deadliftoverlay {
+    position: absolute; /* Position the overlay absolutely */
+    bottom: 20px; /* Align the overlay to the bottom */
+    width: 100%; /* Make the overlay span the entire width of the image */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.deadliftoverlaytitel,
+.deadliftoverlayptitel {
+    text-align: center;
+    color: white; /* Ensure text is white */
+    margin: 0; /* Remove default margin */
+}
+
+.mintxt{
+    color: grey;
+    font-size: small;
+}
+
+.rounded-container {
+    background-color: rgba(128, 128, 128, 0.3); 
+    border-radius: 15px; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    margin-top: 15px;
+}
+
+.movie-title{
+    font-size: 24px;
+
+}
+
+.hover-effect {
+    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.hover-effect:hover {
+    transform: scale(1.1); /* Scale up the image by 10% */
+}
+
+
+
