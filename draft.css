@@ -7,6 +7,7 @@ a{
     text-decoration: none;
     color: black;
 }
+
 .deadliftnavbar{
     display: flex;
     justify-content: end;
@@ -38,8 +39,6 @@ text-align: center;
     padding: 20px;
     margin-bottom: 30px;
     width: auto; /* Make the overlay span the entire width of the image */
-
-
 }
 
 .deadliftoverlaytitel,
@@ -88,5 +87,9 @@ text-align: center;
     transform: scale(1.1); /* Scale up the image by 10% */
 }
 
+.deadliftcont {
 
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
