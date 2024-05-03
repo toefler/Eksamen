@@ -8,11 +8,24 @@
     justify-content: end;
 }
 
+.deadlifthjemmebillede{
+    border-radius: 0; 
+    
+}
+
 .deadliftlayered {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
+}
+
+.deadlifthbilledet{
+    height: 500px;
+}
+
+.deadlifthjemmetxt{
+text-align: center;
 }
 
 .deadliftoverlay {
@@ -42,12 +55,13 @@
 }
 
 .mintxt{
-    color: grey;
+    color: red;
     font-size: small;
+    text-align: left;
 }
 
 .rounded-container {
-    background-color: rgba(128, 128, 128, 0.3); 
+
     border-radius: 15px; 
     padding-bottom: 15px; 
     margin-bottom: 20px; 
@@ -56,9 +70,12 @@
 
 .movie-title{
     font-size: 24px;
-
 }
-
+.mintxt, .movie-title{
+    background-color: grey;
+    padding-top: 5px;
+    
+}
 .hover-effect {
     transition: transform 0.3s ease-in-out; /* Smooth transition effect */
 }
