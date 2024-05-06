@@ -8,6 +8,11 @@ a{
     color: black;
 }
 
+.dbslogo{
+    height: auto;
+    width: 70px;
+}
+
 .deadliftnavbar{
     display: flex;
     justify-content: end;
