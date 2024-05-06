@@ -153,6 +153,9 @@ text-align: center;
   }
 
  .footer {
+    position: fixed; /* Set the position to fixed */
+    bottom: 0; /* Position the footer at the bottom of the viewport */
+    width: 100%; /* Make the footer span the entire width of the viewport */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -171,6 +174,6 @@ text-align: center;
     align-items: center;
     padding: 13px;
     background: #D9D9D9;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 10px;
 }
