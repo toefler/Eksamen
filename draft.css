@@ -128,8 +128,12 @@ text-align: center;
     transform: scale(1.1); /* Scale up the image by 10% */
 }
 
-.deadliftcont {
+.deadliftcontcont{
+    background-color: #D9D9D9;
+}
 
+.deadliftcont {
+    
     padding-top: 50px;
     padding-bottom: 50px;
   }
