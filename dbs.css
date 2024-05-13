@@ -1,50 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
     background-color: #333;
-  }
-a{
-    text-decoration: none;
-    color: white;
 }
 
-.dbsnavbar{
+a {
+    text-decoration: none;
+}
+
+.dbsnavbar {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
 
-.dbslogo{
+.dbslogo {
     height: auto;
     width: 70px;
 }
 
-.deadliftnavbar{
+.deadliftnavbar {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
-.deadlifthjemmebillede{
-    border-radius: 0; 
-    
+.deadlifthjemmebillede {
+    border-radius: 0;
 }
 
 .deadliftlayered {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
 }
 
-.deadlifthbilledet{
+.deadlifthbilledet {
     height: 500px;
 }
 
-.deadlifthjemmetxt{
-text-align: center;
+.deadlifthjemmetxt {
+    text-align: center;
 }
 
 .deadliftoverlay {
@@ -52,49 +50,37 @@ text-align: center;
     color: white;
     padding: 20px;
     margin-bottom: 30px;
-    width: auto; /* Make the overlay span the entire width of the image */
+    width: auto;
 }
 
 .deadliftoverlaytitel,
 .deadliftoverlayptitel {
     text-align: center;
-    color: white; /* Ensure text is white */
-    margin: 0; /* Remove default margin */
+    color: white;
+    margin: 0;
 }
 
-
-
-.deadliftoverlaytitel,
-.deadliftoverlayptitel {
-    text-align: center;
-    color: white; /* Ensure text is white */
-    margin: 0; /* Remove default margin */
-}
-
-.mintxt{
+.mintxt {
     color: red;
     font-size: small;
     text-align: left;
 }
 
-.dbsmaincontainer{
-    background-color: #D9D9D9;
+.dbsmaincontainer {
+    background-color: #d9d9d9;
 }
 
-.dbsfrontpageh1{
+.dbsfrontpageh1 {
     padding: 50px;
 }
 
-
-.dbsreviews{
+.dbsreviews {
     background-color: black;
     width: 100%;
-
-   
     margin-bottom: 50px;
 }
 
-.dbsreviewcontainer{
+.dbsreviewcontainer {
     max-width: 1200px;
     text-align: center;
     padding: 30px;
@@ -102,64 +88,44 @@ text-align: center;
     margin-left: auto;
 }
 
-.reviewbilled{
-
+.reviewbilled {
     height: auto;
 }
 
 .rounded-container {
-
-    border-radius: 15px; 
-    padding-bottom: 15px; 
-    margin-bottom: 20px; 
+    border-radius: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
     margin-top: 15px;
 }
 
-.movie-title{
+.movie-title {
     font-size: 24px;
-}
-.mintxt, .movie-title{
     background-color: grey;
     padding-top: 5px;
-    
 }
+
 .hover-effect {
-    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+    transition: transform 0.3s ease-in-out;
 }
 
 .hover-effect:hover {
-    transform: scale(1.1); /* Scale up the image by 10% */
+    transform: scale(1.1);
 }
 
-.deadliftcontcont{
-    background-color: #D9D9D9;
-}
-
-.deadliftcont {
-    
+.deadliftcontcont {
+    background-color: #d9d9d9;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+}
 
-  .dbsrows{
+.dbsrows {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
-  }
+}
 
-/*USER REVIEW SECTION*/
-  .dbsuserreviewcontainer{
-
-  }
-
-  /*CAROUSEL*/
-  .dbscarousel{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
- .footer {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,41 +133,48 @@ text-align: center;
     padding: 32px 9%;
     background: black;
 }
+
 .footer-text {
     font-size: 16px;
     color: white;
 }
+
 .footerikontop a {
     position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 13px;
-    background: #FFA500;
-    
+    background: #ffa500;
     border-radius: 10px;
 }
-.footerikontop{
-    position: fixed; /* Set the position to fixed */
-    bottom: 0; /* Position the footer at the bottom of the viewport */
+
+.footerikontop {
+    position: fixed;
+    bottom: 0;
     right: 0;
     padding: 35px;
 }
 
-.list-group-item a:hover{
-    color: #4682B4;
+.list-group-item a:hover {
+    color: #4682b4;
 }
 
 .list-group-item {
     background-color: transparent;
     border: none;
+}
 
-  }
-  
-  .card {
+.card {
     background-color: transparent;
-  }
+}
 
-  .squatcard{
+.squatcard {
     color: white;
+}
+  /*CAROUSEL*/
+  .dbscarousel{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
