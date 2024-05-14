@@ -190,13 +190,25 @@ a {
     background-color: transparent;
 }
 
+.dbssquatcontainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .squatcard {
     color: white;
 }
-  /*CAROUSEL*/
-.dbsuserreviewcontainer{
-    padding-bottom: 50px;
+.dbssquatcard{
+   background-color: white;
 }
+.dbssquatcard-titel{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+  /*CAROUSEL*/
+
 
 .dbsreviewlink{
     color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
