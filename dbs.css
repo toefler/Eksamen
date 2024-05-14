@@ -66,14 +66,9 @@ a {
     margin: 0;
 }
 
-.mintxt {
-    color: red;
-    font-size: small;
-    text-align: left;
-}
 
 .dbsmaincontainer {
-    background-color: #d9d9d9;
+ 
 }
 
 .dbsfrontpageh1 {
@@ -104,12 +99,23 @@ a {
     margin-bottom: 20px;
     margin-top: 15px;
 }
-
-.movie-title {
+/*INDHOLD*/ 
+.dbscard-title {
     font-size: 24px;
-    background-color: grey;
+    background-color: white;
     padding-top: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
+.dbscard-title{
+    color: black;
+}
+.mintxt {
+    font-size: small;
+    text-align: left;
+    padding: 15px;
+}
+
 
 .hover-effect {
     transition: transform 0.3s ease-in-out;
@@ -160,7 +166,6 @@ a {
     bottom: 0;
     right: 0;
     padding: 35px;
-    color: whitesmoke;
 }
 
 .list-group-item a:hover {
@@ -180,6 +185,10 @@ a {
     color: white;
 }
   /*CAROUSEL*/
+.dbsreviewlink{
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+}
+
   .dbscarousel{
     max-width: 1200px;
     margin-left: auto;
