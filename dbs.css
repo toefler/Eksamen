@@ -92,6 +92,15 @@ a {
 .reviewbilled {
     height: auto;
 }
+.dbsreviewelementer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .rounded-container {
     border-radius: 15px;
@@ -185,6 +194,10 @@ a {
     color: white;
 }
   /*CAROUSEL*/
+.dbsuserreviewcontainer{
+    padding-bottom: 50px;
+}
+
 .dbsreviewlink{
     color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
 }
