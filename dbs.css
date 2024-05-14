@@ -87,6 +87,7 @@ a {
     padding: 30px;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 .reviewbilled {
@@ -144,6 +145,11 @@ a {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
+}
+
+/*User reviews*/
+.dbsuserreviewcontainer{
+    padding-bottom: 50px;
 }
 
 .footer {
@@ -220,3 +226,8 @@ a {
     margin-right: auto;
   }
   
+  /*Contact form side*/
+  .dbscontactform{
+    background: transparent;
+    border: grey solid 1px;
+  }
