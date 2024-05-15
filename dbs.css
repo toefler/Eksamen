@@ -222,6 +222,17 @@ a {
     padding-bottom: 50px;
 }
 
+.squatequip p {
+    padding-bottom: 20px;
+}
+.squatequip h1 h2 {
+    padding-top: 15px;
+}
+.squatequip img {
+   width: 375px;
+   height: auto;
+}
+
   /*CAROUSEL*/
 .dbsreviewlink{
     color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
