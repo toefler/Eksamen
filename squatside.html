@@ -11,81 +11,84 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="dbs.css" />
-    <link rel="icon" type="image/x-icon" href="/billed/dbslogo.png">
+     <link rel="icon" type="image/x-icon" href="/billed/dbslogo.png">
   </head>
   <body>
-    <!--NAV BARRRR-->
-    <nav class="navbar navbar-expand-lg "style="background-color: #3853A4; color: #fff;">
-      <div class="container-fluid dbsnavbar">
-        <a class="navbar-brand" href="/draft.html"
-          ><img class="dbslogo" src="/billed/dbslogo.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse deadliftnavbar" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Find ét center</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                trænings muligheder
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Håndvægte</a></li>
-                <li><a class="dropdown-item" href="#">vægtstang</a></li>
-                <li><a class="dropdown-item" href="#">kabel</a></li>
-                <li><a class="dropdown-item" href="#">Maskine</a></li>
-                <li><a class="dropdown-item" href="#">hjemme</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Inspiration
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Fysioterapi</a></li>
-                <li><a class="dropdown-item" href="#">Opskrifter</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Magnus storehænder</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kundeservice</a>
-            </li>
+<!--NAV BARRRR-->
+<nav class="navbar navbar-expand-lg" style="background-color: #3853A4;">
+  <div class="container-fluid dbsnavbar">
+    <a class="navbar-brand" href="/draft.html"
+      ><img class="dbslogo" src="/billed/dbslogo.png" alt=""
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse deadliftnavbar" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Find et centere</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            trænings muligheder
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Håndvægte</a></li>
+            <li><a class="dropdown-item" href="#">vægtstang</a></li>
+            <li><a class="dropdown-item" href="#">kabel</a></li>
+            <li><a class="dropdown-item" href="#">Maskine</a></li>
+            <li><a class="dropdown-item" href="#">hjemme</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="card text-bg-dark deadlifthjemmebillede">
-      <video src="/billed/squatvideohero.mp4" class="object-fit-scale" autoplay loop muted></video>
-            </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Inspiration
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Fysioterapi</a></li>
+            <li><a class="dropdown-item" href="#">Opskrifter</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Magnus storehænder</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Kundeservice</a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+<!--Indholdet-->
+    <div class="card text-bg-dark deadlifthjemmebillede">
+      <video src="/billed/squatvideohero.mp4" class="object-fit-scale d-none d-lg-block" autoplay loop muted></video>
+       <!--Iphone video-->
+      <video src="/billed/squatvidphone2.mp4" class="object-fit-scale d-lg-none" autoplay loop muted></video>
+            </div>
+           
+            <h1 class="dbsfrontpageh1"> How to Squat!<br>IN JUST 3 STEPS!</h1>
+   
     <div class="container dbssquatcontainer">
       <div class="row">
         <div class="col-md-2 d-none d-sm-block d-md-block">
@@ -94,11 +97,10 @@
             <!-- Squat Basics -->
             <li class="list-group-item"><a href="#">Squat Basics</a>
               <ul class="list-group">
-                <li class="list-group-item"><a href="#">How to Squat</a></li>
-                <li class="list-group-item"><a href="#">Main Squat Cues</a></li>
+                <li class="list-group-item"><a href="#dbssquatcard">3 step program</a></li>
+                <li class="list-group-item"><a href="#dbsyoutubevid">In depth youtube tutorial</a></li>
                 <li class="list-group-item"><a href="#">Muscles Worked</a></li>
                 <li class="list-group-item"><a href="#">Safety Concerns</a></li>
-                <li class="list-group-item"><a href="#">Video</a></li>
               </ul>
             </li>
             <li class="list-group-item"><a href="#">Optional Equipment</a>
@@ -175,11 +177,58 @@
               </div>
             </div>
           </div>
-  
+          <h1 class="dbsfrontpageh1"> In depth tutorial!<br>By an expert!</h1>
+           <!--Youtube video fra en expert-->
+          <div class="dbsyoutubevid">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ubdIGnX2Hfs?si=6bLbBmJ0SIFNfHNp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <!--Brød tekst til squat-->
+          <div class="dbsbreadtext">
+          <h1>Deadlift Basics</h1>
+          <h2>How to deadlift</h2>
+          <p>The “dead” in Deadlift stands for dead weight. So every rep must start on the floor, from a dead stop. You don’t Deadlift top-down like on the Squat or Bench Press. You start at the bottom, pull the weight up and then return it to the floor. Here are the five steps to Deadlift with proper form… </p>
+          <ol type="1">
+            <li>Walk to the bar. <br>
+               Stand with your mid-foot under the bar. Your shins shouldn’t touch it yet. As a standard stand with your feet at shoulder with apart. You can also experiment with the foot placement, some stand a bit wider and some a bit closer, but see what works best for you. </li>
+            <li>Grab the bar. <br> 
+               Bend over without bending your legs. Grip the bar narrow, about shoulder-width apart like on the Overhead Press. Your arms must be vertical when looking from the front.</li>
+            <li>Bend your knees. <br>
+               Drop into position by bending your knees until your shins touch the bar. Do NOT let the bar move away from your mid-foot. If it moves, start from scratch with step one.</li>
+            <li>Lift your chest. <br>
+              Straighten your back by raising you chest. Do not change your position – keep the bar over your mid-foot, your shins against the bar, and your hips where they are.</li>
+            <li>Pull. Take a big breath, hold it and stand up with the weight. Keep the bar in contact with your legs while you pull. Don’t shrug or lean back at the top. Lock your hips and knees.</li>
+          </ol> 
+          <h1>Main deadlift queues</h1>
+          <p>Before every deadlift you can remember theese cues to ensure you keep good form all the way through the lift</p>
+          <ol type="1">
+            <li>Hips out, Breasts out</li>
+            <li>Pits to Pockets</li>
+            <li>Keep the bar near and it wont hurt your rear</li>
+          </ol>
+
+        <h1>The muscles have worked...</h1>
+        <p>Deadlifts work your whole body. Your legs are the prime movers. Your back muscles keep your spine neutral. And your arms keep the bar in your hands. But since the weight is heavier than on any other exercise, every other muscles has to work too. Otherwise you can’t Deadlift the weight.</p>
+        <ul>
+          <li>Legs. Your hamstrings and glutes straighten your hips. Your quads straighten your knees. Your calves straighten your ankles. The range of motion is smaller than on Squats since you start in a half Squat position. But the weight is heavier and starts from a harder dead stop.</li>
+          <li>Back. Your back muscles contract to keep your spine neutral while gravity tries to bend it. Your lats keep the weight close to your body so it doesn’t drift away. Deadlifts are the best back-builder because they work your whole back with heavier weights than any other exercise.</li>
+          <li>Traps. Your trapezius muscles contract to keep you shoulders in place and transfer force to the bar. Even your shoulders and chest muscles contract to add support. The heavier you Deadlift, the harder your traps work, the bigger they become. You don’t need to do shrugs.</li>
+          <li>Abs. Your abdominal muscles and obliques contract to support your lower back. The heavier your Deadlifts, the stronger and more muscular the become. Eat right and they’ll show.</li>
+          <li>Arms. Your hands hold the bar tight. This strengthens your grip and forearms. But everything upstream tightens as well during heavy Deadlifts, including your biceps and triceps. They don’t bend but work isometrically, like your lower back, to hold your body in position.</li>
+        </ul>
+        <p>Deadlifts work your whole body. Your legs are the prime movers. Your back muscles keep your spine neutral. And your arms keep the bar in your hands. But since the weight is heavier than on any other exercise, every other muscles has to work too. Otherwise you can’t Deadlift the weight.</p>
+            </div>
+
+    <!-- diverse links til nyttigt udstyr til SQUAT-->
           
                 </div>
               </div>
             </div>
+
+         
+           
+
+
+            <!-- diverse links til nyttigt udstyr til SQUAT-->
     <!--footer-->
     <footer class="footer">
       <div class="footer-text">

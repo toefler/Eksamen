@@ -66,13 +66,14 @@ a {
     margin: 0;
 }
 
-
+/*
 .dbsmaincontainer {
  
 }
-
+*/
 .dbsfrontpageh1 {
-    padding: 50px;
+    padding: 20px;
+    text-align: center;
 }
 
 .dbsreviews {
@@ -109,7 +110,7 @@ a {
     margin-bottom: 20px;
     margin-top: 15px;
 }
-/*INDHOLD*/ 
+/*INDHOLD i frontpage*/ 
 .dbscard-title {
     font-size: 24px;
     background-color: white;
@@ -152,6 +153,8 @@ a {
     padding-bottom: 50px;
 }
 
+
+/*Footer*/ 
 .footer {
     display: flex;
     justify-content: space-between;
@@ -183,6 +186,8 @@ a {
     padding: 35px;
 }
 
+
+/*Squat side!*/
 .list-group-item a:hover {
     color: #4682b4;
 }
@@ -197,8 +202,7 @@ a {
 }
 
 .dbssquatcontainer{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
 }
 
 .squatcard {
@@ -213,9 +217,12 @@ a {
     justify-content: center;
 }
 
+.dbsyoutubevid{
+    height: 450px ;
+    padding-bottom: 50px;
+}
+
   /*CAROUSEL*/
-
-
 .dbsreviewlink{
     color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
 }
