@@ -118,19 +118,21 @@ a {
     padding-top: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-}
-.dbscard-title{
     color: black;
 }
+
 .mintxt {
     font-size: small;
     text-align: left;
     padding: 15px;
 }
-
+.rounded-container a:hover{
+    background-color: #4682b4;
+}
 
 .hover-effect {
     transition: transform 0.3s ease-in-out;
+    background-color: #4682b4;
 }
 
 .hover-effect:hover {
@@ -189,6 +191,11 @@ a {
 
 
 /*Squat side!*/
+.list-group{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 20px; /* Adjust this value as needed */
+}
 .list-group-item a:hover {
     color: #4682b4;
 }
@@ -211,9 +218,8 @@ a {
 }
 .dbssquatcard{
     background-color: #222;
-    /* border: solid 2px #4682b4; */
-    box-shadow: 2px 2px #4683b469;
 }
+
 .dbssquatcard-titel{
     color:white;
     display: flex;
@@ -252,3 +258,5 @@ a {
     background: transparent;
     border: grey solid 1px;
   }
+.btn a:hover{
+color: black;}
