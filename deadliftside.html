@@ -1,165 +1,275 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" >
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Adobe Hacks</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="draft.css">
-
- 
-    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DBS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="dbs.css" />
+     <link rel="icon" type="image/x-icon" href="/billed/dbslogo.png">
   </head>
   <body>
-
-
 <!--NAV BARRRR-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid dbsnavbar">
-      <a class="navbar-brand" href="/draft.html"><img class="dbslogo"  src="/billed/dbslogo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse deadliftnavbar" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Find ét center</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              trænings muligheder
-                    </a>
-                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Håndvægte</a></li>
-                        <li><a class="dropdown-item" href="#">vægtstang</a></li>
-                        <li><a class="dropdown-item" href="#">kabel</a></li>
-                        <li><a class="dropdown-item" href="#">Maskine</a></li>
-                        <li><a class="dropdown-item" href="#">hjemme</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Inspiration
-                     </a>
-                     <ul class="dropdown-menu">
-                         <li><a class="dropdown-item" href="#">Fysioterapi</a></li>
-                         <li><a class="dropdown-item" href="#">Opskrifter</a></li>
-                         <li><a class="dropdown-item" href="#">Magnus storehænder</a></li>
-                         <li><hr class="dropdown-divider"></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-lg" style="background-color: #3853A4;">
+  <div class="container-fluid dbsnavbar">
+    <a class="navbar-brand" href="/draft.html"
+      ><img class="dbslogo" src="/billed/dbslogo.png" alt=""
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse deadliftnavbar" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Find et centere</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            trænings muligheder
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Håndvægte</a></li>
+            <li><a class="dropdown-item" href="#">vægtstang</a></li>
+            <li><a class="dropdown-item" href="#">kabel</a></li>
+            <li><a class="dropdown-item" href="#">Maskine</a></li>
+            <li><a class="dropdown-item" href="#">hjemme</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Inspiration
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Fysioterapi</a></li>
+            <li><a class="dropdown-item" href="#">Opskrifter</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Magnus storehænder</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Kundeservice</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+<!--Indholdet-->
+    <div class="card text-bg-dark deadlifthjemmebillede">
+      <video src="/billed/squatvideohero.mp4" class="object-fit-scale d-none d-md-block d-lg-block" autoplay loop muted></video>
+       <!--Iphone video-->
+      <video src="/billed/squatvidphone2.mp4" class="object-fit-scale  d-md-none d-lg-none" autoplay loop muted></video>
+            </div>
+           
+            <h1 class="dbsfrontpageh1"> How to Squat!<br>IN JUST 3 STEPS!</h1>
+   
+    <div class="container dbssquatcontainer">
+      <div class="row">
+        <div class="col-md-2 d-none d-md-block d-lg-block">
+          <!-- Side bar -->
+          <ul class="list-group">
+            <!-- Squat Basics -->
+            <li class="list-group-item"><a href="#">Squat Basics</a>
+              <ul class="list-group">
+                <li class="list-group-item"><a href="#dbssquatcard">3 step program</a></li>
+                <li class="list-group-item"><a href="#dbsyoutubevid">In depth youtube tutorial</a></li>
+                <li class="list-group-item"><a href="#">Squats in depth</a></li>
+                <li class="list-group-item"><a href="#">Main cue´s</a></li>
+                <li class="list-group-item"><a href="#">Muscles Worked</a></li>
+              </ul>
+            </li>
+            <li class="list-group-item"><a href="#">Optional Equipment</a>
+              <ul class="list-group ">
+                <li class="list-group-item"><a href="#">Belt</a></li>
+                <li class="list-group-item"><a href="#">Knee Sleeves</a></li>
+                <li class="list-group-item"><a href="#">Squat Shoes</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <!-- Your cards here -->
 
 
-
-
-
-    <!--indhold-->
-    <img src="/billed/placeholder.jpg" class="img-fluid" alt="...">
-
-    <div class="deadliftcontcont">
-    <div class="container">
-    <div class="row justify-content-center deadliftcont"> 
+          <!-- Sample card -->
+          <div class="card mb-3 dbssquatcard " style="max-width: 900px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/billed/dbssquatstep1.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body squatcard">
+                  <h5 class="card-title dbssquatcard-titel">Step #1</h5>
+                  <p class="card-text dbssquatcard-titel">
+                  Take a deep breath, and hold it as you move your hips back and bend your knees to reach maximum depth.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
   
-        <div class="card mb-3" style="max-width: 900px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/billed/deadliftimg.jpeg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Video #1</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
- 
-     <div class="card mb-3" style="max-width: 900px;">
-        <div class="row g-0">
-          <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Video #2</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <div class="card mb-3 dbssquatcard" style="max-width: 900px">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body squatcard">
+                  <h5 class="card-title dbssquatcard-titel">Step #2</h5>
+                  <p class="card-text dbssquatcard-titel">
+                    When Maximum depth has been reached, feel the weight through your heels and "push the world away from you" as you elevate your body.
+                  </p>
+                </div>
               </div>
-          </div>
-          <div class="col-md-4">
-            <img src="/billed/deadliftimg.jpeg" class="img-fluid rounded-start" alt="...">
-          </div>
-        </div>
-      </div>
-
-         <div class="card mb-3" style="max-width: 900px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/billed/deadliftimg.jpeg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Video #3</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3" style="max-width: 900px;">
-        <div class="row g-0">
-          <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">video #4</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              <div class="col-md-4">
+                <img
+                  src="/billed/dbssquatstep2.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
               </div>
-          </div>
-          <div class="col-md-4">
-            <img src="/billed/deadliftimg.jpeg" class="img-fluid rounded-start" alt="...">
-          </div>
-        </div>
-      </div>
-
-         <div class="card mb-3" style="max-width: 900px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/billed/deadliftimg.jpeg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">video #4</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
             </div>
           </div>
-        </div>
-      </div>
+  
+          <div class="card mb-3 dbssquatcard" style="max-width: 900px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/billed/dbssquatstep3.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body squatcard">
+                  <h5 class="card-title dbssquatcard-titel">Step #3</h5>
+                  <p class="card-text dbssquatcard-titel">
+                    When pushing, keep breath held until you reach top position again. On the top squeeze your glutes and exhale, when ready for next rep repeat steps.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 class="dbsfrontpageh1"> In depth tutorial!<br>By an expert!</h1>
+           <!--Youtube video fra en expert-->
+          <div class="dbsyoutubevid">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WP0IFHkkRZ0?si=N0AvFR9WRvzB5Z_S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <!--Brød tekst til squat-->
+          <div class="dbsbreadtext">
+          <h1>Squat Basics</h1>
+          <h2>How to Squat</h2>
+          <p>Remember to breathe steadily throughout the movement, inhaling as you lower into the squat and exhaling as you rise back up. Focus on maintaining proper form and alignment throughout the exercise to maximize its effectiveness and minimize the risk of injury. If you're new to squatting, it's a good idea to start with bodyweight squats and gradually add weight as you become more comfortable with the movement.
+          </p>
+          <ol type="1">
+            <li>Setup: <br>
+               Stand with your feet shoulder-width apart, toes slightly turned out. Engage your core muscles by pulling your belly button in towards your spine. Keep your chest up and your back straight, with your shoulders pulled back and down. </li>
+            <li>Initiate the Movement: <br> 
+              Begin the squat by hinging at your hips and pushing your buttocks back as if you're sitting into a chair. Shift your weight onto your heels while keeping your knees in line with your toes.</li>
+
+            <li>Lowering Phase: <br> 
+              Continue to lower your body by bending your knees, keeping your chest up and your back straight. Aim to lower down until your thighs are parallel to the ground, or as low as you can comfortably go while maintaining proper form.</li>
+
+            <li>Rising Phase: <br>
+               Push through your heels to straighten your legs and return to the starting position. Keep your core engaged and maintain an upright posture throughout the movement.</li>
+
+            <li>Completion: <br> Once you reach the top, squeeze your glutes at the top of the movement to fully extend your hips. Pause briefly before starting the next repetition.
+
+</li>
+          </ol> 
+          <h1>Main Squat queues</h1>
+          <p>Before every squat you can remember theese cues to ensure you keep good form all the way through the lift</p>
+          <ol type="1">
+            <li>Big breath</li>
+            <li>Next up chest up</li>
+            <li>Bend your knees not your back</li>
+          </ol>
+
+        <h1>The muscles have worked...</h1>
+        <p>Squats work your legs!. Your legs are the prime movers. But since the weight is heavier than on any other exercise, your lower back and some other muscles has to work too. Otherwise you can’t squat the weight.</p>
+        <ul>
+          <li>Quadriceps: <br>The quadriceps, located at the front of the thigh, are the primary muscles responsible for extending the knee joint during the upward phase of the squat.</li>
+
+          <li>Gluteus Maximus: <br>The gluteus maximus, the largest muscle in the buttocks, is heavily engaged during squats to extend the hip joint and drive the body back to the starting position.</li>
+
+          <li>Hamstrings: <br>The hamstrings, located at the back of the thigh, act as synergists to the gluteus maximus, aiding in hip extension and knee flexion during the lowering phase of the squat.</li>
+
+          <li>Erector Spinae: <br>The erector spinae muscles, which run along the spine, stabilize the spine and help maintain an upright posture throughout the squat movement, preventing forward leaning or rounding of the back.</li>
+        </ul>
+        <p>These muscles are considered prime movers because they are primarily responsible for generating movement during the squat exercise, making them essential for squatting with proper form and efficiency.<br> <br></p>
+            </div>
+    <!-- diverse links til nyttigt udstyr til SQUAT-->
+    <div class="squatequip">
+      <h1>Optional Equipment <br> to help/improve your squats</h1>
+      <a href="https://www.gymgrossisten.no/powerlifting-belt-xs/BE002-001-XS.html"><img src="/billed/dbssquatbelt.jpg" alt=""></a>
+      <h2>Belt:</h2>
+      <p>Using a lifting belt during squats can provide several benefits for lifters. Primarily, a lifting belt offers support and stability to the lower back and core muscles, which are crucial for maintaining proper form and spinal alignment during heavy lifts. By increasing intra-abdominal pressure, the belt helps to stabilize the spine, reducing the risk of injury and allowing the lifter to lift heavier loads with greater confidence. Additionally, wearing a lifting belt can enhance proprioception, providing a tactile cue for maintaining proper posture throughout the squat movement. While it's essential to use proper lifting technique and not rely solely on the belt for support, incorporating a lifting belt into your squat routine can be beneficial for lifters looking to maximize their performance and minimize the risk of injury.</p>
+  
+      <a href="https://www.gymgrossisten.no/powerlifting-belt-xs/BE002-001-XS.html"><img src="/billed/dbskneesleeves.jpg" alt=""></a>
+      <h2>Knee sleeves:</h2>
+      <p>
+        Knee sleeves are commonly used during squats to provide support and stability to the knee joint. They work by compressing the joint and surrounding tissues, which can help reduce strain and alleviate discomfort during heavy lifts. By increasing blood flow and warmth to the knees, knee sleeves may also aid in preventing injury and promoting faster recovery. Additionally, the compression provided by knee sleeves can enhance proprioception, helping lifters maintain proper knee alignment throughout the squat movement. While knee sleeves should not be used as a substitute for proper lifting technique or addressing underlying mobility issues, incorporating them into your squat routine can offer added support and protection, especially during high-intensity training sessions.</p>
+      <a href="https://www.gymgrossisten.no/powerlifting-belt-xs/BE002-001-XS.html"><img src="/billed/dbssquatshoes.jpg" alt=""></a>
+      <h2>Lifting shoes:</h2>
+      <p>
+        Lifting shoes are a valuable tool for squatting due to their specialized design tailored to weightlifting movements. These shoes typically feature a raised heel, which promotes a more upright torso position during the squat, allowing for better depth and stability. The solid, non-compressible sole of lifting shoes provides a stable base, enhancing balance and reducing the risk of injury by preventing foot collapse under heavy loads. Additionally, the straps or laces on lifting shoes ensure a secure fit, minimizing the risk of slipping or shifting during the squat movement. By optimizing foot positioning and stability, lifting shoes contribute to improved squat mechanics and overall performance, making them a popular choice among serious lifters aiming to maximize their strength gains and minimize the risk of injury.</p>
     </div>
-</div>
-</div>
+          
+                </div>
+              </div>
+            </div>
 
-      
-      
+         
+           
+
+
+            <!-- diverse links til nyttigt udstyr til SQUAT-->
     <!--footer-->
     <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy;2023 af Philip Juhl& Magnus Mühldorff / alle rettigheder reserveret.</p>
-        </div>
-        <div class="footerikontop">
-            <a href="#">   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"/>
-              </svg></a>
-        </div>
-    </footer>
-  
+      <div class="footer-text">
+          <p>Copyright &copy;2023 af Philip Juhl& Magnus Mühldorff / alle rettigheder reserveret.</p>
+          
+      </div>
+      <div class="footerikontop">
+        <a href="#">   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"/>
+          </svg></a>
+    </div>
+ 
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
