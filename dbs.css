@@ -93,6 +93,7 @@ a {
 
 .reviewbilled {
     height: auto;
+    width: 200px;
 }
 .dbsreviewelementer{
     display: flex;
