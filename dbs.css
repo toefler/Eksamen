@@ -210,10 +210,11 @@ a {
     color: white;
 }
 .dbssquatcard{
-   background-color: white;
+    background-color: #222;
+    border: solid 10px #222
 }
 .dbssquatcard-titel{
-    color: black;
+    color:white;
     display: flex;
     justify-content: center;
 }
