@@ -68,7 +68,7 @@ a {
 
 /*
 .dbsmaincontainer {
- 
+
 }
 */
 .dbsfrontpageh1 {
@@ -111,7 +111,7 @@ a {
     margin-bottom: 20px;
     margin-top: 15px;
 }
-/*INDHOLD i frontpage*/ 
+/*INDHOLD i frontpage*/
 .dbscard-title {
     font-size: 24px;
     background-color: white;
@@ -155,7 +155,7 @@ a {
 }
 
 
-/*Footer*/ 
+/*Footer*/
 .footer {
     display: flex;
     justify-content: space-between;
@@ -211,7 +211,8 @@ a {
 }
 .dbssquatcard{
     background-color: #222;
-    border: solid 10px #222
+    /* border: solid 2px #4682b4; */
+    box-shadow: 2px 2px #4683b469;
 }
 .dbssquatcard-titel{
     color:white;
@@ -245,7 +246,7 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   /*Contact form side*/
   .dbscontactform{
     background: transparent;
