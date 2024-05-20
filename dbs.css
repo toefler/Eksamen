@@ -342,14 +342,14 @@ a {
     background: transparent;
     border: grey solid 1px;
 }
-.container{
+.contactcontainer{
     display: flex;
         justify-content: center;
         align-items: center;
         min-height: 80vh;
         max-width: 700px;
 }
-.container button{
+.contactcontainer button{
     width: 700px;
     max-width: 100%;
   }
