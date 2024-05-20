@@ -342,4 +342,22 @@ a {
     background: transparent;
     border: grey solid 1px;
 }
-  
+.container{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        max-width: 700px;
+}
+.container button{
+    width: 700px;
+    max-width: 100%;
+  }
+  @media (max-width: 768px) {
+    .container button {
+      width: 100%;
+    }
+  }
+  .form-group {
+    padding-bottom: 15px;
+  }
