@@ -79,20 +79,37 @@
     <!-- Contact form with image -->
     <div class="container">
       <div class="row">
-      <div class="col-md-6 mt-5">
+      <div>
           <h2>Contact Us</h2>
           <form id="contact-form">
-            <div class="form-group form-group">
+            <div class="row">
+            <div class="form-group col">
               <label for="name">Name</label>
-              <input type="text" class="form-control dbscontactform" id="name" name="name" required>
+              <input type="text" class="form-control dbscontactform" placeholder="First name" id="name" name="name" required>
             </div>
-            <div class="form-group">
+            <div class="form-group col">
+              <label for="surname">Last name</label>
+              <input type="text" class="form-control dbscontactform" placeholder="Last name" id="surname" name="surname" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col">
               <label for="email">Email</label>
-              <input type="email" class="form-control dbscontactform" id="email" name="email" required>
+              <input type="email" class="form-control dbscontactform" placeholder="Email" id="email" name="email" required>
             </div>
+            <div class="form-group col">
+              <label for="email-select">Select Email</label>
+              <select class="form-select form-select-sm" aria-label="Small select example">
+                <option value="">Select an email</option>
+                <option value="example1@example.com">example1@example.com</option>
+                <option value="example2@example.com">example2@example.com</option>
+                <option value="example3@example.com">example3@example.com</option>
+              </select>
+            </div>
+          </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea class="form-control dbscontactform" id="message" name="message" rows="5" required></textarea>
+              <textarea class="form-control dbscontactform" id="message" placeholder="Your message" name="message" rows="5" required></textarea>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -103,22 +120,9 @@
             <button type="submit" class="btn btn-primary" style="background-color: #ffa500; border: none; margin-top: 15px;">Send</button>
           </form>
        </div>
-       <div class="col-md-6 mt-5">
-        <div class="card" style="width: 25rem;">
-          <img src="/billed/dbscoach.jpg" class="card-img-top" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title" style="position: absolute;bottom: 20px;left: 10px;padding: 5px;color: white;">Adonis Johnson</h5>
-            <p class="card-text" style="position: absolute;bottom: 10px;left: 10px;padding: 5px;color: white;"><small>Founder and Ceo</small></p>
-          </div>
-        </div>
-      </div>
      </div>
     </div>
 
-    
-
-
-    
     <!-- Extern JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
