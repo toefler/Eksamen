@@ -344,17 +344,18 @@ a {
 }
 .contactcontainer{
     display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 80vh;
-        max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    max-width: 700px;
+    margin: auto;
 }
 .contactcontainer button{
     width: 700px;
     max-width: 100%;
   }
   @media (max-width: 768px) {
-    .container button {
+    .contactcontainer button {
       width: 100%;
     }
   }
