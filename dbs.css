@@ -345,7 +345,9 @@ a {
     padding: inherit;
     margin-bottom: 15px;
 }
-
+.dbstrainertxt{
+    text-align: left;
+}
 /* Chatgpt løsning
 .dbsptcards {
     flex: 1 1 calc(33.333% - 30px); 
