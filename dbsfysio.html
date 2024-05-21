@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DBS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="dbs.css">
+    <link rel="icon" type="image/x-icon" href="/billed/dbslogo.png">
+  </head>
+  <body>
+
+<!-- Start Popup -->
+<div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="welcomeModalLabel" style="color: black;">Subscribe to our Newsletter</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="newsletterForm">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label" style="color: black;">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #ffa500;border-color: white;">Subscribe</button>   
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--NAV BARRRR-->
+<nav class="navbar navbar-expand-lg" style="background-color: #3853A4;">
+    <div class="container-fluid dbsnavbar">
+      <a class="navbar-brand" href="/draft.html"
+        ><img class="dbslogo" src="/billed/dbslogo.png" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse deadliftnavbar" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Find a center</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Help from professionals
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Fysiotherapy</a></li>
+              <li><a class="dropdown-item" href="/personaltrainer.html">Personal trainers</a></li>
+              <li>
+                <a class="dropdown-item" href="#">All</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+<!--indhold-->
+   <div class="dbsmaincontainer">
+    <div class="container text-center">
+      <h1 class="dbsfrontpageh1">Get a fysiotherapist<br> and fix your limbs!</h1>
+
+
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 dbsrows">
+        <div class="card dbsptcards">
+            <img src="/billed/dbscoach.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dagmar Stockmar</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card dbsptcards">
+            <img src="/billed/dbscoach.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Magnus Mahlduf</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card dbsptcards">
+            <img src="/billed/dbscoach.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Philip Strong</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+         
+       </div>
+    </div>
+</div>
+
+
+
+<!--Footers-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy;2023 af Philip Juhl& Magnus Mühldorff / alle rettigheder reserveret.</p>
+    </div>
+    <div class="footerikontop">
+        <a href="#">
+          <script src="https://cdn.lordicon.com/lordicon.js"></script>
+          <lord-icon
+              src="https://cdn.lordicon.com/dwoxxgps.json"
+              trigger="hover"
+              style="width:25px;height:25px">
+          </lord-icon>
+        </a>
+    </div>
+</footer>
+ 
+
+<!--Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+        // Viser modal når siden er loaded
+        var myModal = new bootstrap.Modal(document.getElementById('welcomeModal'), {
+          keyboard: false
+        });
+        myModal.show();
+    </script>
+</body>
+</html>

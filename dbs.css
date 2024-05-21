@@ -285,10 +285,11 @@ a {
     border: none;
 }
 
+/* ANNULLERET
 .card {
     background-color: transparent;
 }
-
+*/
 .dbssquatcontainer{
     padding-bottom: 5px;
 }
@@ -361,3 +362,11 @@ a {
   .form-group {
     padding-bottom: 15px;
   }
+
+  /*Personlig træner siden*/ 
+  .dbsptcards{
+    flex: 1 1 calc(33.333% - 30px); /* af hvad betyder det her CHATGPRT */
+    margin: 15px; 
+    padding: inherit; /*Fylde billedet ud*/
+  }
+  
