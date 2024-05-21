@@ -339,9 +339,31 @@ a {
   }
 
   /*Personlig træner siden*/ 
-  .dbsptcards{
-    flex: 1 1 calc(33.333% - 30px); /* af hvad betyder det her CHATGPRT */
-    margin: 15px; 
-    padding: inherit; /*Fylde billedet ud*/
+
+/*vores løsning, endte med at bruge bootstrap G-4 og row sektionen istedet for at style det. */ 
+.dbsptcards{
+    padding: inherit;
+
+}
+
+/* Chatgpt løsning
+.dbsptcards {
+    flex: 1 1 calc(33.333% - 30px); 
+    box-sizing: border-box;
+    padding: inherit;
   }
   
+  /* Media query for tablets (iPad) 
+  @media (max-width: 768px) {
+    .dbsptcards {
+      flex: 1 1 calc(50% - 30px); 
+    }
+  }
+  
+  /* Media query for mobile phones (iPhone) 
+  @media (max-width: 576px) {
+    .dbsptcards {
+      flex: 1 1 calc(100% - 30px);
+    }
+  }
+  */
