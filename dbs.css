@@ -343,7 +343,7 @@ a {
 /*vores løsning, endte med at bruge bootstrap G-4 og row sektionen istedet for at style det. */ 
 .dbsptcards{
     padding: inherit;
-
+    margin-bottom: 15px;
 }
 
 /* Chatgpt løsning
