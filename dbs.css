@@ -69,11 +69,6 @@ a {
     margin: 0;
 }
 
-/*
-.dbsmaincontainer {
-
-}
-*/
 .dbsfrontpageh1 {
     padding: 20px;
     text-align: center;
@@ -91,7 +86,6 @@ a {
     padding: 30px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 .reviewbilled {
@@ -155,12 +149,6 @@ a {
     margin-bottom: 10px;
     font-weight: 900;
     color: white;
-  
-    /* text-shadow: 
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000; ANNULLERET */
 }
 
 .card-img-overlay button {
@@ -184,7 +172,7 @@ a {
     -1px -1px 0 #000,  
      1px -1px 0 #000,
     -1px  1px 0 #000,
-     1px  1px 0 #000; /* Simulated text border */
+     1px  1px 0 #000;
 }
 
 .card-img-overlay2 h1 {
@@ -240,18 +228,22 @@ a {
 /*Footer*/
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 32px 9%;
     background: black;
+    text-align: center;
 }
 
 .footer-text {
     font-size: 16px;
     color: white;
+    margin: 0;
+    flex: 1;
+    text-align: center;
 }
-
+/* Styling af scroll up knap, samt gør den sticky */
 .footerikontop a {
     position: relative;
     display: inline-flex;
@@ -270,7 +262,7 @@ a {
 }
 
 
-/*Squat side!*/
+/*Gør så sidebaren er sticky når man scroller, men først efter billedet*/
 .list-group{
     position: -webkit-sticky; /* For Safari */
     position: sticky;
@@ -354,6 +346,7 @@ a {
     width: 700px;
     max-width: 100%;
   }
+  /* Gør så knappen 700px indtil 768px hvor den så bliver mindre med skærmen */
   @media (max-width: 768px) {
     .contactcontainer button {
       width: 100%;
