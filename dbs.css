@@ -40,12 +40,6 @@ a {
     border-radius: 0;
 }
 
-.deadliftlayered {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
 .deadlifthbilledet {
     height: 500px;
 }
@@ -54,20 +48,7 @@ a {
     text-align: center;
 }
 
-.deadliftoverlay {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px;
-    margin-bottom: 30px;
-    width: auto;
-}
 
-.deadliftoverlaytitel,
-.deadliftoverlayptitel {
-    text-align: center;
-    color: white;
-    margin: 0;
-}
 
 .dbsfrontpageh1 {
     padding: 20px;
