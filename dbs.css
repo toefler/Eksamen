@@ -343,9 +343,11 @@ a {
 /*vores løsning, endte med at bruge bootstrap G-4 og row sektionen istedet for at style det. */ 
 .dbsptcards{
     padding: inherit;
-
+    margin-bottom: 15px;
 }
-
+.dbstrainertxt{
+    text-align: left;
+}
 /* Chatgpt løsning
 .dbsptcards {
     flex: 1 1 calc(33.333% - 30px); 
@@ -367,3 +369,26 @@ a {
     }
   }
   */
+
+  /*Confirm side*/
+  .confirmbtn{
+    background-color: #ffa500;
+    border: none; 
+    margin-top: 15px; 
+    display: flex;
+    justify-content: center;
+  }
+
+  /*Google maps */ 
+  .google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
