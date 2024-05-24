@@ -17,6 +17,7 @@ a {
     color: white;
 }
 
+/*Navbar*/ 
 .dbsnavbar {
     margin-left: auto;
     margin-right: auto;
@@ -34,28 +35,82 @@ a {
 .deadliftnavbar {
     display: flex;
     justify-content: flex-end;
-
 }
 
+/*Frontpage*/ 
 .deadlifthjemmebillede {
     border-radius: 0;
 }
 
+.rounded-container a:hover{
+    background-color: #4682b4;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease-in-out;
+    background-color: #4682b4;
+}
+
+.hover-effect:hover {
+    transform: scale(1.1);
+}
+
+/*Forældet version
 .deadlifthbilledet {
     height: 500px;
 }
-
 .deadlifthjemmetxt {
     text-align: center;
 }
+*/
+
+
+/*Dødløft bænk squat indholdet*/ 
+¨
 
 
 
-.dbsfrontpageh1 {
-    padding: 20px;
-    text-align: center;
+
+.dbscard-title {
+    font-size: 24px;
+    background-color: white;
+    padding-top: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
 }
 
+/* card text placering i midten*/
+.card-img {
+    border-radius: 10px;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+}
+
+.rounded-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.rounded-container img{
+    opacity: 0.7;
+}
+
+/*Review sektion*/
 .dbsreviews {
     background-color: black;
     width: 100%;
@@ -84,45 +139,6 @@ a {
     margin-right: 20px;
 }
 
-.rounded-container {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    border-radius: 15px;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    margin-top: 15px;
-}
-.rounded-container img{
-    opacity: 0.7;
-}
-/*INDHOLD i frontpage*/
-.dbscard-title {
-    font-size: 24px;
-    background-color: white;
-    padding-top: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: black;
-}
-
-/* card text placering i midten*/
-.card-img {
-    border-radius: 10px;
-}
-
-.card-img-overlay {
-    position: absolute;
-    top: 68%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-
-}
-
 .card-img-overlay h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -142,7 +158,96 @@ a {
     cursor: pointer;
 }
 
-/*Style til knapper med længere ord*/
+/*User reviews*/
+.dbsuserreviewcontainer{
+    padding-bottom: 50px;
+}
+
+  /*CAROUSEL*/
+  .dbsreviewlink{
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+}
+
+.dbscarousel{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/*dødløft Squat bænk siderne!*/
+.dbssquatcontainer{
+    padding-bottom: 5px;
+}
+
+.deadliftcontcont {
+    background-color: #d9d9d9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dbsrows {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.squatcard {
+    color: white;
+}
+.dbssquatcard{
+    background-color: #222;
+}
+
+.dbssquatcard-titel{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.dbsyoutubevid{
+    height: 450px ;
+    padding-bottom: 50px;
+}
+
+.squatequip p {
+    padding-bottom: 20px;
+}
+.squatequip h1 h2 {
+    padding-top: 15px;
+}
+.squatequip img {
+   width: 375px;
+   height: auto;
+}
+
+/*Gør så sidebaren er sticky når man scroller, men først efter billedet*/
+.list-group{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 20px; /* Adjust this value as needed */
+}
+.list-group-item a:hover {
+    color: #4682b4;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.dbsfrontpageh1 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* ANNULLERET
+.card {
+    background-color: transparent;
+}
+*/
+
+/*Style til knapper med længere ord i den forældet version
 .card-img-overlay2 {
     position: absolute;
     top: 60%;
@@ -176,137 +281,7 @@ a {
     text-align: left;
     padding: 15px;
 }
-.rounded-container a:hover{
-    background-color: #4682b4;
-}
-
-.hover-effect {
-    transition: transform 0.3s ease-in-out;
-    background-color: #4682b4;
-}
-
-.hover-effect:hover {
-    transform: scale(1.1);
-}
-
-.deadliftcontcont {
-    background-color: #d9d9d9;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.dbsrows {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-}
-
-/*User reviews*/
-.dbsuserreviewcontainer{
-    padding-bottom: 50px;
-}
-
-
-/*Footer*/
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 32px 9%;
-    background: black;
-    text-align: center;
-}
-
-.footer-text {
-    font-size: 16px;
-    color: white;
-    margin: 0;
-    flex: 1;
-    text-align: center;
-}
-/* Styling af scroll up knap, samt gør den sticky */
-.footerikontop a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 13px;
-    background: #ffa500;
-    border-radius: 10px;
-}
-
-.footerikontop {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 35px;
-}
-
-
-/*Gør så sidebaren er sticky når man scroller, men først efter billedet*/
-.list-group{
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 20px; /* Adjust this value as needed */
-}
-.list-group-item a:hover {
-    color: #4682b4;
-}
-
-.list-group-item {
-    background-color: transparent;
-    border: none;
-}
-
-/* ANNULLERET
-.card {
-    background-color: transparent;
-}
 */
-.dbssquatcontainer{
-    padding-bottom: 5px;
-}
-
-.squatcard {
-    color: white;
-}
-.dbssquatcard{
-    background-color: #222;
-}
-
-.dbssquatcard-titel{
-    color:white;
-    display: flex;
-    justify-content: center;
-}
-
-.dbsyoutubevid{
-    height: 450px ;
-    padding-bottom: 50px;
-}
-
-.squatequip p {
-    padding-bottom: 20px;
-}
-.squatequip h1 h2 {
-    padding-top: 15px;
-}
-.squatequip img {
-   width: 375px;
-   height: auto;
-}
-
-  /*CAROUSEL*/
-.dbsreviewlink{
-    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
-}
-
-  .dbscarousel{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   /*Contact form side*/
   .dbscontactform{
@@ -380,7 +355,7 @@ a {
     justify-content: center;
   }
 
-  /*Google maps */ 
+/*Google maps */ 
   .google-map {
     padding-bottom: 50%;
     position: relative;
@@ -394,7 +369,7 @@ a {
     position: absolute;
 }
 
-/*Position på tekst*/
+/*Position på tekst i en forældret version af siden.
 .card-img-overlay3{
     position: absolute;
     top: 30%;
@@ -402,4 +377,41 @@ a {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+}
+*/
+
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px 9%;
+    background: black;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+/* Styling af scroll up knap, samt gør den sticky */
+.footerikontop a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    background: #ffa500;
+    border-radius: 10px;
+}
+
+.footerikontop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 35px;
 }
