@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DBS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="dbs.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/billed/dbslogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
 
@@ -31,33 +35,18 @@
     </div>
 </div>
 
-<!--NAV BARRRR-->
+<!--NAV BAR-->
 <nav class="navbar navbar-expand-lg" style="background-color: #3853A4;">
   <div class="container-fluid dbsnavbar">
-    <a class="navbar-brand" href="/draft.html"
-      ><img class="dbslogo" src="/billed/dbslogo.png" alt=""
-    /></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <a class="navbar-brand" href="/index.html"><img class="dbslogo" src="/billed/dbslogo.png" alt=""/></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse deadliftnavbar" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >Guides
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Guides
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/deadliftside.html">Deadlift</a></li>
@@ -66,31 +55,22 @@
             <li><hr class="dropdown-divider" /></li>
           </ul>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="/dbsfindcenter.html">Find center</a>
         </li>
-
         <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Help from professionals
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/dbsfysio.html">Fysiotherapy</a></li>
             <li><a class="dropdown-item" href="/personaltrainer.html">Personal trainers</a></li>
             <li>
-              <a class="dropdown-item" href="/dbsallhelpside.html">All</a>
+              <a class="dropdown-item" href="#">All</a>
             </li>
-            <li><hr class="dropdown-divider" /></li>
+            <li><hr class="dropdown-divider"/></li>
           </ul>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="/contact.html">Contact</a>
         </li>
@@ -103,6 +83,7 @@
 <!--hero video til telefon og computer skærm-->
     <div class="card text-bg-dark deadlifthjemmebillede" style="border: none;">
       <video src="/billed/dbsherovideo.mp4" class="object-fit-scale d-none d-md-block d-lg-block" autoplay loop></video>
+
 <!-- Telefon version-->
       <video src="/billed/dbsvideomobil.mp4" class="object-fit-scale d-md-none d-lg-none" autoplay loop muted></video>
     </div>
@@ -112,7 +93,7 @@
    <div class="dbsmaincontainer">
     <div class="container text-center">
       <h1 class="dbsfrontpageh1">The Best Guides to Build Strength <br> and Muscle… 100% Free!</h1>
-
+      <!-- Dødløft Card -->
       <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 dbsrows">
         <div class="col rounded-container"><a href="/deadliftside.html"><img src="/billed/dbsdeadliftimage.jpg" class=" card-img mx-auto d-block w-100 hover-effect" alt="...">
           <div class="card-img-overlay">
@@ -121,14 +102,14 @@
           </div>
             </a>
         </div>
-
+        <!-- Squat Card -->
          <div class="col rounded-container"><a href="/squatside.html"><img src="/billed/dbssquatimage.jpg" class=" card-img mx-auto d-block w-100 hover-effect" alt="..."></a>
           <div class="card-img-overlay">
             <h1>SQUAT</h1>
             <button>Learn more</button>
           </div>
          </div>
-
+         <!-- Bænke Press Card -->
          <div class="col rounded-container"><a href="/benchside.html"><img src="/billed/dbsbenchimage.jpg" class="card-img mx-auto d-block w-100 hover-effect" alt="..."></a>
           <div class="card-img-overlay">
             <h1>BENCH</h1>
@@ -164,13 +145,11 @@
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="/billed/dbsreview1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <img src="/billed/dsbreview2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-
             </div>
           </div>
           <div class="carousel-item">
